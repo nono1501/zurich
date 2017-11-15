@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Sacramento');
+
+/*This is the CSS for the heading: "A weekend in Zurich"*/
+.heading {
+    font-size:50px;
+    color: #A0A0A0;
+    background-color:#F1F9FD;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-weight:700;
+    height:100px;
+}
+
+/*This div is used to have the same background color everywhere on the site*/
+.background {
+    background-color:#F1F9FD;
+    height:1000px;
+    align-items:center;
+    display:flex;
+    flex-direction:column;
+}
+
+.backgroundhomepage {
+    background-color:#F1F9FD;
+    align-items:center;
+    display:flex;
+    flex-direction: column;
+    height: 800px;
+}
+
+/*This is the CSS for the Nav Bar*/
+.navigation {
+    background-color:#F1F9FD;
+    height:100px;
+    align-content:center;
+    align-items:center;
+    justify-content:space-around;
+    display:flex;
+    font-family: 'Roboto Slab', serif;
+    font-weight:400;
+    font-size:1.3rem;
+}
+
+
+.body {
+    background-color:#F1F9FD;
+    color: #00000;
+    margin-top: 20px;
+    margin-left:30px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 300;
+}
+
+ /*This cursive signature gives a more personal feel to the website*/
+#signature {
+    font-size:3rem;
+    margin-top:20px;
+    font-family: 'Sacramento', cursive;
+    text-align: center;
+}  
+
+/*This removes the underline of the links everywhere on the site*/
+a:link {
+    text-decoration: none;
+    color: #212121;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #212121;
+}
+    
+a:visited {
+    text-decoration: none;
+    color: #212121;
+}
+
+h4 {
+    margin: 20px;
+    padding: 10px;
+    font-family:'Roboto Slab', serif;
+    font-weight:300;
+}
+
+p {
+    margin: 20px;
+    padding: 10px;
+    font-family:'Roboto Slab', serif;
+    font-weight:300;
+}
+
+.picmidcontainer {
+    height: 50%;
+    margin-top:30px;
+}
+
+.pichomepage {
+    height: 50%;
+    margin-top: 30px;
+    margin-bottom:30px;
+}
